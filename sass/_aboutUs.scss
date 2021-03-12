@@ -1,0 +1,49 @@
+.aboutUs,
+.services,
+.features,
+#WeDo,
+.our-team,
+.our-work {
+    height: 700px;
+
+    h5 {
+        font-size: convertFont(22);
+        color: #333333;
+        font-family: "Kaushan Script";
+        font-weight: 400;
+    }
+
+    h2 {
+        font-size: convertFont(28);
+        color: #333333;
+        font-family: "Montserrat";
+        font-weight: bold;
+    }
+
+    h2::after {
+        content: '';
+        background: #f38181;
+        height: 3px;
+        width: 45px;
+        position: absolute;
+        bottom: 0;
+        left: 48%;
+        margin-bottom: -25px;
+    }
+
+    .content {
+        height: 110px;
+    }
+
+    p {
+        height: 100px;
+        font-size: convertFont(15);
+        line-height: 24px;
+        color: #999999;
+        font-family: "Roboto";
+        margin-top: 20px;
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+
+}

@@ -1,0 +1,11 @@
+.features {
+    height: 850px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+    img {
+        bottom: -7%;
+        right: 100%;
+        transform: translate(85%, 51.5%);
+    }
+}
