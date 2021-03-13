@@ -1,0 +1,39 @@
+.pos-img-cont {
+    position: relative;
+}
+
+.latest-blog img {
+    height: 240px;
+}
+
+@media (max-width: 576px) {
+    .latest-blog img {
+        height: auto;
+    }
+}
+
+.latest-blog .col-md-4 {
+    padding: 20px;
+}
+
+.latest-blog i {
+    font-size: 20px;
+    color: var(--base);
+}
+
+.latest-blog h5 {
+    font-weight: bolder;
+}
+
+.pos-blog {
+    background-color: #95e1d3;
+    width: fit-content;
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 50px;
+    left: -10px;
+}
+
+.pos-blog h3 {
+    font-weight: bold;
+}
