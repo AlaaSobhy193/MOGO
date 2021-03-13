@@ -1,18 +1,26 @@
-.facts{
+.facts {
     background-color: #95e1d3;
-    height: 200px;
-    h2{
-    font-size: convertFont(55);
-    color: #ffffff;
-    font-weight: bold;
-    font-family: "Montserrat";
+
+    h2 {
+        font-size: convertFont(55);
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Montserrat";
     }
-    h6{
-    font-size: convertFont(10);
-    color: #ffffff;
-    font-family: "Montserrat";
+
+    h6 {
+        font-size: convertFont(10);
+        color: #ffffff;
+        font-family: "Montserrat";
     }
-    .container{
-        padding-top: 55px;
+
+    .col {
+        border-left: 1px #b5eae0 solid;
+        border-right: 1px #b5eae0 solid;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.3rem 0rem;
     }
 }
