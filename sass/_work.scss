@@ -26,4 +26,16 @@
         opacity: 1;
     }
 
+    #before::before {
+        bottom: 40px;
+        content: " ";
+        width: 50px;
+        height: 4px;
+        background-color: #f38181;
+        position: absolute;
+        transform: translate(-110%);
+
+    }
+
+
 }
